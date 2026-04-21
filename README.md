@@ -381,26 +381,40 @@ body {
 <div class="hero">
   <div class="hero-gallery" id="gallery">
 
-    <!-- Slide 1: Historic -->
+    <!-- Slide 1: Түүхэн зураг 1 -->
     <div class="hero-slide historic">
       <!-- Replace src with your actual historic photo -->
-      <img src="" alt="Манзушир хийд — түүхэн зураг" onerror="this.src=''; this.parentElement.style.background='#2A2620'">
+      <img src="photos/historic-1.webp" alt="Манзушир хийд — түүхэн зураг" onerror="this.src=''; this.parentElement.style.background='#2A2620'">
       <div class="hero-overlay"></div>
       <div class="slide-label" id="slide-label-0">1930-аад он</div>
     </div>
 
-    <!-- Slide 2: Current -->
+    <!-- Slide 2: Түүхэн зураг 2 -->
     <div class="hero-slide">
-      <img src="" alt="Манзушир хийд " onerror="this.src=''; this.parentElement.style.background='#1A1612'">
+      <img src="photos/historic-2.webp" alt="Манзушир хийд " onerror="this.src=''; this.parentElement.style.background='#1A1612'">
       <div class="hero-overlay"></div>
       <div class="slide-label" id="slide-label-1">Өнөөдөр</div>
     </div>
 
-    <!-- Slide 3: Landscape -->
+    <!-- Slide 3: Түүхэн зураг 3 -->
     <div class="hero-slide">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Bogdkhan_uul.jpg/1280px-Bogdkhan_uul.jpg" alt="Богдхан уул" onerror="this.src=''; this.parentElement.style.background='#0F1A12'">
+      <img src="photos/historic-3.webp" alt="Манзушир хийд " onerror="this.src=''; this.parentElement.style.background='#0F1A12'">
       <div class="hero-overlay"></div>
-      <div class="slide-label" id="slide-label-2">Богдхан уул</div>
+      <div class="slide-label" id="slide-label-2">Манзушир</div>
+    </div>
+
+    <!-- Slide 3: Одоо 1 -->
+    <div class="hero-slide">
+      <img src="photos/current-1.webp" alt="Манзушир хийд " onerror="this.src=''; this.parentElement.style.background='#0F1A12'">
+      <div class="hero-overlay"></div>
+      <div class="slide-label" id="slide-label-2">Манзушир</div>
+    </div>
+
+    <!-- Slide 3: Одоо 2 -->
+    <div class="hero-slide">
+      <img src="photos/current-2.webp" alt="Манзушир хийд " onerror="this.src=''; this.parentElement.style.background='#0F1A12'">
+      <div class="hero-overlay"></div>
+      <div class="slide-label" id="slide-label-2">Манзушир</div>
     </div>
 
   </div>
@@ -599,7 +613,7 @@ const LANG = {
 
 // ─── GALLERY ────────────────────────────────────────────────────
 let currentSlide = 0;
-const totalSlides = 3;
+const totalSlides = 5;
 let autoTimer;
 
 function buildDots() {
