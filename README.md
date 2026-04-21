@@ -384,14 +384,14 @@ body {
     <!-- Slide 1: Historic -->
     <div class="hero-slide historic">
       <!-- Replace src with your actual historic photo -->
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Manzushir_Khiid.jpg/1280px-Manzushir_Khiid.jpg" alt="Манзушир хийд — түүхэн зураг" onerror="this.src=''; this.parentElement.style.background='#2A2620'">
+      <img src="" alt="Манзушир хийд — түүхэн зураг" onerror="this.src=''; this.parentElement.style.background='#2A2620'">
       <div class="hero-overlay"></div>
       <div class="slide-label" id="slide-label-0">1930-аад он</div>
     </div>
 
     <!-- Slide 2: Current -->
     <div class="hero-slide">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Manzushir_monastery.jpg/1280px-Manzushir_monastery.jpg" alt="Манзушир хийд — өнөөдөр" onerror="this.src=''; this.parentElement.style.background='#1A1612'">
+      <img src="" alt="Манзушир хийд " onerror="this.src=''; this.parentElement.style.background='#1A1612'">
       <div class="hero-overlay"></div>
       <div class="slide-label" id="slide-label-1">Өнөөдөр</div>
     </div>
